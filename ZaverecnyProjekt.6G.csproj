@@ -95,6 +95,10 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="DAL\Book.cs" />
+    <Compile Include="DAL\Order.cs" />
+    <Compile Include="DAL\OrderItem.cs" />
+    <Compile Include="DAL\User.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -108,6 +112,7 @@
     <Content Include="Views\Shared\_ContentLayout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Partials\_Nav.cshtml" />
+    <Content Include=".gitignore" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
